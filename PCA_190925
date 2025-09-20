@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> El Chamizal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container text-center"></div>
+        <div class="row bg-dark p-3">
+            <div class="col-12 bg-dark p-2">
+                
+                <nav class="navbar navbar-expand-lg bg-light sticky-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">El Chamizal</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#quees">¿Qué es?</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#historia">Historia</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#importancia">Importancia</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galería</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+    <div class="container-fluid text-center">
+        <div class="row bg-info ">
+            <div class="col-12 bg-secondary p-4">
+                <h3>Chamizal</h3>
+            </div>
+        </div>
+
+        
+        <div class="row bg-secondary p-1" id="quees">
+            <div class="col-12 col-md-4 bg-light ">
+                <h3>¿Que es?</h3>
+                <img src="chamizal.jfif" alt="chamizal" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-8 bg-info">
+                <div class="row bg-info ">
+                    <div class="col-12 col-md-6 mx-auto col-lg-8 p-1">
+                        <p>
+El Chamizal es un parque público ubicado en Ciudad Juárez, Chihuahua, que representa un triunfo diplomático para México al recuperar un territorio perdido por cambios en el cauce del río Bravo. Tras un litigio de más de cien años, el Tratado del Chamizal en 1963 resolvió el conflicto fronterizo, delimitando permanentemente el cauce del río y devolviendo aproximadamente 333 hectáreas a México en 1964. Actualmente, el parque es un importante espacio cultural y recreativo que alberga el Museo de Arqueología e Historia y celebra la resolución pacífica de disputas internacionales
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row bg-secondary p-1" id="historia">
+            <div class="col-12 col-md-4 bg-light ">
+                <h3>Historia de el conflicto</h3>
+                <img src="conflicto.jfif" alt="conflicto" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-8 bg-info">
+                <div class="row bg-info ">
+                    <div class="col-12 col-md-6 mx-auto col-lg-8 p-1">
+                        <p>
+El conflicto de El Chamizal fue una disputa territorial entre México y Estados Unidos que duró un siglo, desde la década de 1850 hasta 1967, debido a cambios en el curso del río Bravo después del Tratado de Guadalupe-Hidalgo de 1848. El conflicto se resolvió en 1967 con el Tratado del Chamizal, que devolvió a México 1.5 km² de tierra y estableció un nuevo límite fronterizo en un canal artificial del río.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row bg-secondary p-1" id="importancia">
+            <div class="col-12 col-md-4 bg-light ">
+                <h3>Importancia cultural y ambiental</h3>
+                <img src="importancia.jfif" alt="importancia" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-8 bg-info">
+                <div class="row bg-info ">
+                    <div class="col-12 col-md-6 mx-auto col-lg-8 p-1">
+                        <p>
+El Chamizal tiene una gran importancia cultural como símbolo de la resolución pacífica de conflictos y un espacio de identidad y recreación para Ciudad Juárez, albergando un museo y promoviendo la comunidad y la cultura fronteriza. Su importancia ambiental radica en ser un pulmón verde crucial en la ciudad, ofreciendo un hábitat para diversas especies, mitigando la contaminación y funcionando como reservorio hídrico en un entorno urbano.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row bg-light p-4" id="galeria">
+            <h3 class="text-center mb-4">Galería de imágenes</h3>
+            <div class="col-12">
+                <div id="carouselChamizal" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="cham1.jfif" class="d-block w-100 rounded" alt="Chamizal">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="cham2.jfif" class="d-block w-100 rounded" alt="Conflicto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="cham3.jfif" class="d-block w-100 rounded" alt="Importancia cultural">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselChamizal" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselChamizal" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row bg-secondary p-1" id="contacto">
+            <div class="col-12 bg-secondary p-3">
+                <footer class="bg-secondary text-black text-center py-3">
+    <p>&copy;Mi Comunidad en la Web | Ciudad Juárez, Chihuahua | Pascual Chapol Alexander 3-D</p>
+  </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
